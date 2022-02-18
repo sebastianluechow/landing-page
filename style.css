@@ -117,26 +117,38 @@ a:hover {
 }
 .sub-containers {
     display: flex;
-    border: solid 3px yellow;
+    justify-content: space-between;
+    margin: 0em 20em 3em 20em;
+    text-align: center;
+
 }
 .sub-container_1 {
-    border: solid 3px red;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .sub-container_2 {
-    border: solid 3px green;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .sub-container_3 {
-    border: solid 3px blue;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .sub-container_4 {
-    border: solid 3px orange;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .img-square {
     border-radius: 20px;
+    height: auto;
+    width: 15em;
 }
 
 /* specific elements */
